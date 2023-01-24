@@ -7,7 +7,7 @@ body {
 /* -------------------------header section start-------------------------------- */
 .header {
     background-color: rgba(255, 144, 14, 0.1);
-    ;
+    margin-bottom: 85px;
 }
 
 .title-bar {
@@ -71,4 +71,252 @@ body {
 .banner img {
     width: 1440px;
     height: 700px;
+}
+
+/* <!------------------------- Team section start--------------------------- --> */
+.main-container {
+    align-items: center;
+    width: 1318px;
+    height: 708px;
+    margin-bottom: 130px;
+}
+
+.caption {
+    padding-left: 76px;
+    padding-right: 200px;
+}
+
+.team-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1890px;
+    height: 708px;
+}
+
+.team-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-left: 301px;
+}
+
+.photos {
+    border: 0px;
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+}
+
+.team-title {
+    font-size: 45px;
+    color: #FF900E;
+    padding-right: 240px;
+}
+
+.Quick-list {
+    color: #727272;
+}
+
+.of-Our {
+    color: #131313;
+}
+
+.team-paragraph {
+    font-size: 16px;
+    color: #727272;
+    width: 537px;
+    height: 78px;
+}
+
+/* ---------------------------Service Section Start ----------------------*/
+.service-container {
+    display: flex;
+    margin-left: 300px;
+    width: 1440px;
+    height: 1059px;
+    left: 250px;
+    top: 2246px;
+}
+
+.serviceses-container {
+    width: 586px;
+}
+
+.service-title {
+    font-size: 45px;
+    color: #131313;
+    width: 468px;
+    height: 106px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.service-caption {
+    font-size: 16px;
+    padding-right: 110px;
+    line-height: 26px;
+    height: 78px;
+}
+
+/* comments */
+.comment-container {
+    gap: 20px;
+}
+
+.service-subtitle {
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.description-title {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.comment {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 514px;
+    height: 78px;
+}
+
+.box-btn {
+    margin-top: 20px;
+    padding-left: 800px;
+
+}
+
+.service-btn {
+    width: 342px;
+    line-height: 45px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-size: 65px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: bold;
+}
+
+.btn-colour {
+    font-size: 25px;
+}
+
+.service-photo {
+    width: 708px;
+    height: 982px;
+}
+
+/* ----------------------Facts section----------------------- */
+.container-facts {
+    margin-top: 129px;
+    padding-left: 300px;
+}
+
+.title-facts {
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.description-title-01 {
+    width: 542px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 100px;
+}
+
+.box-container-01 {
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin-bottom: 180px;
+}
+
+.rating {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    width: 169px;
+    height: 200px;
+    line-height: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.ti-00 {
+    font-size: 45px;
+}
+
+.para-88 {
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ------------------------Sponspors Section-------------------------- */
+
+.sponspors-container {
+    text-align: center;
+
+}
+
+.sponspors-lists {
+    line-height: 28px;
+}
+
+.sponspors-title {
+    font-size: 45px;
+}
+
+.sponspors-comments {
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    align-content: center;
+    padding-right: 650px;
+    padding-left: 671px;
+    margin-bottom: 50px;
+}
+
+.websites-logos {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    margin-bottom: 130px;
+}
+
+/* ------------------------------footer section --------------------------------------------- */
+.footer-container{
+    margin-bottom: 216px;
+}
+.footer-title {
+    text-align: center;
+    font-size: 20px;
+    color: #424242;
+    background-color: #FFF4E7;
+    width: 1440px;
+    height: 50px;
+    padding-top: 25px;
+    line-height: 35px;
+    padding-bottom: 40px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.dip a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
 }
