@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans';
+}
+
+/* -------------------------header section start-------------------------------- */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+.title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    padding-left: 228px;
+    font-size: 45px;
+}
+
+.menu-bar {
+    display: flex;
+    padding-right: 240px;
+}
+
+.menu {
+    padding-right: 80px;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* -----------------------2nd title bar-------------------- */
+.title-01 {
+    text-align: center;
+    padding-left: 529px;
+    padding-right: 529px;
+}
+
+.prothom-lekha {
+    font-size: 64px;
+}
+
+.title-details {
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 32px;
+}
+
+.btn {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.btn-title {
+    padding: 16px 22px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.banner {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.banner img {
+    width: 1440px;
+    height: 700px;
+}
