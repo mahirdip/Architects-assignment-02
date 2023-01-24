@@ -54,7 +54,7 @@ body {
     padding-bottom: 50px;
 }
 
-.btn-title {
+.btn-title, .btn-title-01 {
     padding: 16px 22px;
     color: #FFFFFF;
     background-color: #FF900E;
@@ -89,7 +89,6 @@ body {
 .team-container {
     display: flex;
     align-items: center;
-    position: absolute;
     width: 1890px;
     height: 708px;
 }
@@ -319,4 +318,159 @@ body {
     color: black;
     font-weight: 600;
     text-decoration: none;
+}
+
+/* ---------------------------------Mobile Size--------------------------------- */
+@media only screen and (max-width: 688px) {
+    .title{
+        padding-left: 10px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .title-bar{
+        display: block;
+        flex-direction: row;
+    }
+    .title-details{
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .menu-bar {
+        /* display: flex; */
+        flex-direction: row;
+    }
+    .menu{
+        padding-right: 37px;
+        padding-left: 5px;
+    }
+    .photos{
+        padding-left: 19px;
+    }
+    .prothom-lekha{
+        font-size: 55px;
+    }
+    .banner{
+        padding-bottom: 2px;
+    }
+    .title-01{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .banner img{
+        width: 100%;
+        height: 265px;
+    }
+    .team-container{
+        display: block;
+        flex-direction: column;
+        align-items: none;
+    }
+    .team-title{
+        font-size: 29px;
+        padding-left: 15px;
+    }
+    .team-photos{
+        padding-left: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-paragraph{
+        width: 370px;
+        line-height: 27px;
+        padding-bottom: 86px;
+        text-align: center;
+        font-size: 14px;
+        height: 56px;
+        padding-left: 15px;
+    }
+    .btn-title{
+        margin-left: 2px;
+    }
+    .caption{
+        padding-left: 0px;
+    }
+    .service-container{
+        display: block;
+        margin-left: 5px;
+    }
+    .service-title{
+        width: 345px;
+        height: 35px;
+        margin-top: 1100px;
+        font-size: 24px;
+        padding-left: 19px;
+    }
+    .service-caption{
+        text-align: center;
+        padding-right: 1080px;
+        padding-left: 25px;
+        height: 145px;
+        font-size: 14px;
+    }
+    .service-subtitle{
+        width: 370px;
+        padding-left: 15px;
+    }
+    .description-title{
+        text-align: center;
+    }
+    .service-photo img{
+        width: 349px;
+        padding-left: 15px;
+    }
+    .comment{
+        text-align: center;
+        font-size: 15px;
+        line-height: 23px;
+        width: 345px;
+        height: 78px;
+    }
+    .btn-title-01{
+        margin-left: 110px;
+    }
+    .box-btn{
+        padding-left: 25px;
+        margin-top: 380px;
+    }
+    .title-facts{
+        text-align: center;
+    }
+    .container-facts{
+        margin-top: 70px;
+        padding-left: 10px;
+    }
+    .description-title-01{
+        width: 352px;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .box-container-01{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+    .sponspors-comments{
+        font-size: 15px;
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .websites-logos{
+        flex-direction: column;
+        gap: 45px;
+    }
+    .footer-container{
+        margin-bottom: 70px;
+    }
+    .footer-title{
+        text-align: center;
+        font-size: 18px;
+        width: 359px;
+        height: 80px;
+        padding-top: 25px;
+        line-height: 32px;
+        padding-bottom: 40px;
+        margin-left: 20;
+    }
 }
